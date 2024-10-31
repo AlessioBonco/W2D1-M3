@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <button class="menu-button" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></button>
+        <h2>Navbar</h2> 
+        <ul class="navbar-menu">
+            <li><a href="#migliori-artisti">Migliori Artisti</a></li>
+            <li><a href="#miglioriAlbum">Migliori Album</a></li>
+            <li><a href="#preferiti">Preferiti</a></li>
+            <li><a href="#Foto">Contatti</a></li>
+        </ul>
+    </nav>
+    <button id="button-MA" onclick="MostraNascondi ()">Mostra/Nascondi</button>
+    <section id="migliori-artisti">
+        <div>
+            <h1 class="bestArt">Migliori Artisti 2k24</h1>
+        </div>
+
+        <div id="div1" class="contentDiv active">
+         <h1>THE WEEKND</h1>
+         <img src="assets/weke.jpg" alt=""> 
+            
+        </div>
+        <div id="div2" class="contentDiv">
+         <h1>TRAVIS SCOTT</h1>
+         <img src="assets/travis.jpeg" alt="">
+        </div>
+        <div id="div3" class="contentDiv">
+         <h1>PLAYBOI CARTI</h1>
+         <img src="assets/carti.jpg" alt="">
+        </div>
+
+        <div class="scorriBottoni">
+         <button class="controlButton" onclick="mostraPrima()">  <i class="fa-solid fa-arrow-left"></i></button>
+         <button class="controlButton2" onclick="mostraDopo()"> <i class="fa-solid fa-arrow-right"></i> </button>
+        </div>
+    </section>
+    <button id="button-MA2" onclick="MostraNascondi2 ()">Mostra/Nascondi</button>
+    <section id="miglioriAlbum">
+        <h1>Migliori Album</h1>
+    <div id="cards">
+        <div class="card">
+          <img src="assets/utopia.jpg" alt="">
+          <h2>Utopia</h2>
+          <p>TRAP USA</p>
+        </div>
+        <div class="card">
+            <img src="assets/carson.jpg" alt="">
+            <h2>A Great Chaos</h2>
+            <p>TRAP USA</p>
+          </div>
+          <div class="card">
+            <img src="assets/album week.jpg" alt="">
+            <h2>After Hours</h2>
+            <p>POP USA</p>
+          </div>
+          <div class="card">
+            <img src="assets/CENTRAL CEE.jpeg" alt="">
+            <h2>23</h2>
+            <p>DRILL UK</p>
+          </div>
+          <div class="card">
+            <img src="assets/ALBUMCARTI.jpg" alt="">
+            <h2>Whole Lotta </h2>
+            <p>OPIUM</p>
+          </div>
+          <div class="card">
+            <img src="assets/rihanna.jpg" alt="">
+            <h2>Talk That Talk </h2>
+            <p>R&B</p>
+          </div>
+          <div class="card">
+            <img src="assets/MIGOS.jpeg" alt="">
+            <h2>Culture III</h2>
+            <p>TRAP USA</p>
+          </div>
+          <div class="card">
+            <img src="assets/tylor swift.jpg" alt="">
+            <h2>Lover</h2>
+            <p>POP USA</p>
+          </div>
+    </div>
+    </section>
+    <button id="button-MA3" onclick="MostraNascondi3 ()">Mostra/Nascondi</button>
+    <section id="preferiti">
+       <h1 id="album1">ALBUM N°1</h1>
+    <div class="flexalbum">
+        <div>
+         <img src="assets/utopia.jpg" alt="">
+        </div>
+        <div>
+         <h1 class="autore">Travis Scott</h1>
+         <h2>Utopia:</h2>
+            <div class="liste">
+                <div>
+                    <ul>
+                     <li>1 HYAENA</li>
+                     <li>2 THANK GOD</li>
+                     <li>3 MODERN JAM</li>
+                     <li>4 MY EYES</li>
+                     <li>5 GOD'S COUNTRY</li>
+                     <li>6 SIRENS</li>
+                     <li>7 MELTDOWN</li>
+                     <li>8 FE!N</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                     <li>9 DELRESTO </li>
+                     <li>10 I KNOW?</li>
+                     <li>11 TOPIA TWINS</li>
+                     <li>12 CIRCUS MAXIMUS</li>
+                     <li>13 PARASIL</li>
+                     <li>14 SKITZO</li>
+                     <li>15 LOST FOREVERE </li>
+                     <li>16 LOOVE</li>
+                    </ul>
+            
+                </div>
+            </div>
+            <p> L'album è stato descritto come un album sperimentale con elementi di trap, <br> pop rap, cloud rap e psichedelia. Diversi critici hanno notato la forte influenza  <br>dell'album di Kanye West del 2013 Yeezus, al quale Scott aveva partecipato <br>come produttore e del quale sono presenti anche campionamenti.</p>
+        </div>
+    </div>    
+    <h3>DURATA: 73:27'</h3>
+    </section>
+    <section id="Foto">
+     <div>
+        <h1>WWW.KingDelPop.COM | @CONTATTACI</h1>
+     </div>
+    </section>
+
+</body>
+<script src="script.js"></script>
+<script src= "https:/kit.fontawesome.com/2a73860ace.js"crossorigin="anonymous"></script>
+</html>
